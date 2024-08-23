@@ -66,7 +66,7 @@ export default function () {
         
             <ul className='p-5 text-white  flex flex-col items-center'>
                         {navBarLinks.map((item,index)=>(
-                                <li key={index} className="capitalize cursor-pointer font-montserrat py-4  mt-4 text-xl hover:text-coral-red">
+                                <li key={index} onClick={()=>setIsOpen(!isOpen)} className="capitalize cursor-pointer font-montserrat py-4  mt-4 text-xl hover:text-coral-red">
                                     <a href={item.href}>
                                         {item.label}
                                     </a>
