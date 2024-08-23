@@ -4,7 +4,7 @@ export const PopularProductCard=({rating,price,name,imgURL})=>{
     
     
     return(
-    <div className="flex flex-1 sm:flex-col flex-row w-full 
+    <div className="flex flex-1 flex-col w-full items-center 
      max-sm:w-full">
         
         <img src={imgURL} alt="" className="" width="280px" height="280px"/>

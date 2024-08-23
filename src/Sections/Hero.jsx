@@ -57,7 +57,7 @@ export default function Hero(){
             <div className="relative flex-1 flex justify-center
                 xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center items-center">
          
-                <img src={bigShoe} alt="shoe collection" width={610} height={500}  className="object-contain relative z-10 " />
+                <img src={bigShoe} alt="shoe collection" width={610} height={500}  className="object-contain relative" />
 
 
 
